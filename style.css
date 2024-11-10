@@ -1,0 +1,80 @@
+body{
+    background-color:#212121;
+}
+h1{
+    font-family: "forte";
+    display: flex;
+    margin: 25px;
+    background-color: #616161;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    user-select: none;
+}
+.main1{
+    display: flex; 
+    flex-direction: row;
+    height: auto;
+    background-color: #757575;
+    border-radius: 5px;
+    margin: 25px;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    
+}
+.app1 {
+    border-radius: 5px;
+    background-color: azure;
+    margin: 26px;
+    width: 230px;
+    height: 220px; 
+    text-align: center; 
+    transition: width 0.3s;
+
+}
+
+h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "arial black";
+    user-select: none;
+}
+
+img {
+    height: 90px;
+    width: 90px;
+    margin: 9px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    user-select: none;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff; 
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    user-select: none;
+}
+
+.download-button:hover {
+    background-color: #0056b3;
+}
+
+.app1:hover {
+    width: calc(200px + 50px);
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items:flex-start;
+}
+
